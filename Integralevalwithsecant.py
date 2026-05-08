@@ -1,5 +1,6 @@
 import numpy as np
 
+#
 def trapezoidal_eval(N, a = 0, b = 1, f = lambda x : np.sin(3*(x**2)) / (x+1)):
 
     h = (b-a)/N
